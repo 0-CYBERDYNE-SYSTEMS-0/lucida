@@ -1,0 +1,37 @@
+# Keep only the generated sample PDF from local data.
+/data/*
+!/data/sample/
+/data/sample/*
+!/data/sample/starforge.pdf
+
+# Credentials and local settings.
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+.netrc
+.npmrc
+.pypirc
+
+# Local environments, caches, and editor files.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.sqlite*
+*.db
+
+# Personal documents. Keep the generated sample only.
+*.pdf
+!/data/sample/starforge.pdf
